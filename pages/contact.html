@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+    body{
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+    }
+      form {
+        background-color: #fffcbea9;
+      }
+      h1 {
+        text-align: center;
+      }
+      form {
+        text-align: center;
+      }
+      .items {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1><strong>Let's Chat <3 </strong></h1>
+
+    <form method="POST" action="https://oim-apis.herokuapp.com/form2">
+      <br />
+      <div>
+        <label for="firstname">First Name: </label>
+        <input
+          type="text"
+          id="firstname"
+          maxlength="100"
+          placeholder="First name"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="lastname">Last Name: </label>
+        <input
+          type="text"
+          id="lastname"
+          maxlength="100"
+          placeholder="Last name"
+        />
+      </div>
+      <br />
+      
+      <div>
+        <label for="email">Email or Phone #: </label>
+        <input type="text" id="email" maxlength="100" placeholder="Email or #" />
+      </div>
+      <br />
+    </form>
+
+    <form>
+       What do you want to talk about:
+        <br />
+        <div class="items">
+          <div style="display: inline-block; text-align: left">
+            <input
+              type="checkbox"
+              name="item"
+              id="basichtml"
+              value="Basichtml"
+            /><label for="basichtml">Basic HTML</label>
+            <br />
+            <input type="checkbox" name="item" id="css" value="CSS" /><label
+              for="css"
+              >CSS</label
+            >
+            <br />
+            <input
+              type="checkbox"
+              name="item"
+              id="tables"
+              value="Tables"
+            /><label for="tables">Tables</label>
+          </div>
+        </div>
+        <br />
+      </div>
+
+      
+
+      <div>
+        <div>
+          <label for="comments">Leave a Reply:</label>
+        </div>
+        <div>
+          <textarea
+            id="comments"
+            name="comments"
+            rows="5"
+            cols="25"
+            placeholder="Enter your comment here..."
+          >
+          </textarea>
+        </div>
+      </div>
+      <button type="submit">
+        <img src="images/mailbox.png" height="30" alt="submit button" />
+      </button>
+      <button type="submit">
+        <img src="images/reset.png" height="30" alt="submit button" />
+      </button>
+
+      <!-- <input
+        type="submit"
+        value="Click me to submit"
+      />
+      <input type="reset" value="Clear form" /> -->
+    </form>
+  </body>
+</html>
+
+</body>
+</html>
